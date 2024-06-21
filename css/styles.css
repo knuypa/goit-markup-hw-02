@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   padding: 20px;
 }
 
@@ -57,4 +57,41 @@ nav a:focus {
 
 section {
   padding: 40px 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section ul li {
+  text-align: center;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .logo {
+  display: block;
+  margin-bottom: 10px;
+  color:#ffffff;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 0;
 }
