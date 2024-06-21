@@ -33,11 +33,28 @@ nav a:focus {
 
 .hero {
   background-color: #2e2f42;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding: 100px 20px;
 }
 
 .hero h1 {
   margin: 0 0 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero button:hover,
+.hero button:focus {
+  background-color: #0056b3;
+}
+
+section {
+  padding: 40px 20px;
 }
