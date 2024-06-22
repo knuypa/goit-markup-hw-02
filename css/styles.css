@@ -44,9 +44,8 @@ header nav ul {
   color: #404bbf;
 }
 
-.home-link,
-.portfolio-link,
-.contacts-link {
+/* Додано стиль background-color для пунктів списку */
+.home-link, .portfolio-link, .contacts-link {
   background-color: #ffffff;
 }
 
