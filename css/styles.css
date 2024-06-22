@@ -37,13 +37,17 @@ header nav ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
-  /* Додано стиль background-color для пунктів списку */
-  background-color: #ffffff;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+
+.home-link,
+.portfolio-link,
+.contacts-link {
+  background-color: #ffffff;
 }
 
 .contact-address {
