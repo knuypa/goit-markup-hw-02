@@ -7,19 +7,13 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #ffffff;
-  padding: 20px;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 20px;
 }
 
 nav a {
@@ -36,6 +30,10 @@ nav a {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+
+.main-link {
+  color: #2e2f42;
 }
 
 .logo {
@@ -95,13 +93,6 @@ nav a {
   padding: 40px 20px;
 }
 
-.service-item {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 .section-title {
   text-align: center;
   font-size: 36px;
@@ -112,28 +103,42 @@ nav a {
   margin-bottom: 20px;
 }
 
+.service-item,
+.team-item,
+.portfolio-item,
+.testimonial-item {
+  background-color: #ffffff;
+}
+
+.service-item img,
+.team-item img,
+.portfolio-item img,
+.testimonial-item img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
 .service-title,
+.team-title,
+.portfolio-title,
 .testimonial-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0 0 10px;
 }
 
 .service-description,
+.team-role,
+.portfolio-type,
 .testimonial-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.testimonial-item {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0;
 }
 
 .site-footer {
@@ -171,21 +176,10 @@ section ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 section ul li {
   text-align: center;
-}
-
-footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-  text-align: center;
-  padding: 20px;
 }
 
 footer .logo {
