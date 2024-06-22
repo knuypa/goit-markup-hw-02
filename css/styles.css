@@ -37,6 +37,7 @@ header nav ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  background-color: #FFFFFF;
 }
 
 .nav-link:hover,
