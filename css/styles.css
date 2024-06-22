@@ -26,6 +26,10 @@ header {
   color: #4d5ae5;
 }
 
+.logo-web {
+  color: #4d5ae5;
+}
+
 .span-class {
   color: #2e2f42;
 }
@@ -246,6 +250,23 @@ header nav ul li {
   background-color: #2e2f42;
   text-align: center;
   padding: 20px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-web {
+  color: #4d5ae5;
+}
+
+.footer-span-class {
+  color: #f4f4fd;
 }
 
 .footer-paragraph {
